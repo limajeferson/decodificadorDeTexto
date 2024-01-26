@@ -1,0 +1,175 @@
+body {
+  margin: auto;
+  gap: 70px;
+  display: flex;
+  padding: 20px;
+  width: 1280px;
+  height: 920px;
+  background: #f3f5fc;
+  /* background: #F3F5FC; */
+}
+
+.part-1 {
+  width: 65%;
+  height: 100%;
+}
+
+.part-1-1 {
+  margin-top: 80px;
+  padding: 0 150px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+.part-2 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 35%;
+  background: #ffff;
+  height: 85%;
+}
+
+.part-2-textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-2-textos h1,
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#entradaTexto {
+  color: #0A3871;
+  font-family: Inter, Helvetica, sans-serif;;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;/* 48px */
+  width: 100%;
+  max-width: 100%;
+  height: 18em;
+  background-color: #f3f5fc;
+  margin-bottom: 20px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 0px solid #333;
+  border-radius: 0px;
+  resize: none;
+  /* Evita que o usuário redimensione o textarea */
+}
+
+#entradaTexto::placeholder {
+  color: #0A3871; /* Cor desejada para o placeholder */
+}
+
+button {
+  cursor: pointer;
+  width: 328px;
+  height: 55px;
+  background: #F3F5FC;
+  color: #0a3871;
+  border: 1px solid #333;
+  border-radius: 16px;
+}
+
+.part-1-button {
+  display: flex;
+  gap: 16px;
+}
+
+.part-2-button {
+  display: flex;
+  gap: 8px;
+}
+
+.part-1 h2 {
+  font-size: 32px;
+  margin-bottom: 700px;
+  color: #0a3871;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.part-1-button button:hover {
+  background: #0a3871;
+  border-radius: 16px;
+  color: #ffff;
+}
+
+.part-1-button button:focus {
+  background: #0a3871;
+  border-radius: 16px;
+  color: #ffff;
+}
+
+.part-2-button button:hover {
+  background: #fff;
+  border-radius: 16px;
+  color: #0a3871;
+}
+
+.part-2-button button:focus {
+  background: #ffff;
+  border-radius: 16px;
+  color: #0a3871;
+}
+
+#saidaTexto {
+  color: var(--Gray-gray-400, #495057);
+  font-family: Inter, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 36px */
+  text-align: center;
+  width: 90%;
+  height: 10em;
+  font-size: 28px;
+  border: 0px solid;
+  border-radius: 0px;
+  padding: 14px;
+  box-sizing: content-box;
+  resize: none;
+}
+
+#saidaTexto::placeholder {
+  color: #495057; /* Cor desejada para o placeholder */
+}
+
+.part-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-1-1 p {
+  text-align: start;
+}
+
+.part-2-textos p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #495057;
+  font-size: 20px;
+}
+
+.inform {
+  color: var(--Gray-gray-400, #495057);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 18px */
+  color: #495057;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
